@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Zeldylocks Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+body 
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+body div section {
+			  background-image: url('images/rpgmv/Mewtwo\ Poster.png');
+			  background-repeat: no-repeat; 
+			  background-size: cover;
+			}
+</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+				<!-- Header -->
+					<header id="header">
+						
+						<a href="index.html" class="logo">Hobbies</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Aaro</a></li>
+							<li><a href="hobbies.html">Hobbies</a></li>
+							<li><a href="unity.html">Unity</a></li>
+							
+						</ul>
+						
+						<ul class="icons">
+							<!-- 
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							 -->
+							<li><a href="https://www.linkedin.com/in/aaro-salonen-9540308a/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+							<li><a href="https://github.com/Zeldylocks" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+					<nav id="nav2">
+						<ul class="links">
+							<li><a href="mm2.html">SMM2</a></li>
+							<li><a href="d&d.html">D&D</a></li>
+							<li><a href="homm3.html">HoMM3</a></li>
+                            <li><a href="lol.html">LoL</a></li>
+                            <li class="active"><a href="rpgmakermv.html">RPG MV</a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1 style="color: rgba(255, 255, 255, 0);">RPG Maker MV</h1>
+									<p style="color: rgba(255, 255, 255, 0);">Fighting Fantasy - The Legend of Kanto<br>A Fangame Project of Zelda, Pokémon, and Final Fantasy.<br><br><br></p>
+								</header>
+								</section>
+
+				
+				<div class="box alt">
+				<p>
+					My love of pixel art, zelda, and the early pokémon series is what culminated in this dream. It has always remained on the back burner because it can never be legally published. Nintendo has always been extremely bad at reacting to fan-created content of their IPs and I don't want to defy that. If I ever do finish this, it'll be for me, and distributed on request to a closed circle of friends for testing purposes, and only aim to develop my javascript skills further.<br>
+                    The name is derived from the fact that the first Final Fantasy was originally conceived under the working title <em>Fighting Fantasy</em>, and it fits well with the pokémon concept merge since, well, pokémon fight a lot. Additionally, <em>The Legend of</em> subtitle is a direct reference to the Zelda titles, whereas <em>Kanto</em> is the name of the region where the first generation Pokémon games took place.
+					<p>
+                        The information below dissects the game concept in greater detail, so if you're not familiar with the games in question, feel free to just browse pictures.
+                    </p>
+					<h3>Core Concept Dissection</h3>
+                    
+                        <dl>
+                            <dt>Pokémon FireRed</dt>
+                            <dd>
+                                <p>
+                                    The basic idea is to recreate Pokémon FireRed, aka the Kanto region, using the RPG Maker MV, and retell the story. In my game, the pokémon have gone berserk, escaped their pokéballs, and terrorize the humans. I have rewritten the story structure, so it has a resolution, but I won't get into it here much.<br>
+                                    Now, the biggest issues with this is that the <em>Pokémon Essentials</em>, which is a game project made in RPG Maker XP that lets people make Pokémon-style games (containing all the data from the games, such as animations, names, percentages, etc), is <b>not</b> compatible with the MV version of the RPG Maker series. And this just translates into <em>a lot of work</em>. So, as a hobby, it could be extremely time consuming.</p>
+                            </dd>
+                            <dt>Zelda</dt>
+                            <dd>
+                                <p>
+                                    Zelda plays a part through art and concepts, as used in <em>A Link To The Past</em> and <em>The Minish Cap</em> games. Additionally, it brings over the core concept of <em>key items</em>, which limit and guide the game progression, such as <em>Hookshot, Slippers,</em> and <em>Power Gauntlets</em>. The original Pokémon game had those as well, in form of HMs, which were special abilities that the pokémon were taught in order to progress, such as <em>Cut, Flash,</em> and <em>Surf</em>. Since pokémon are no longer used in the game, I've turned those HMs into equivalent items, so that the game still has a very similar path.<br>
+                                    This is also where my love for pixel art comes into play. I've edited the sprites so that the zelda content mixes nicely with the aesthetics. </p>
+                            </dd>
+                            <dt>Final Fantasy</dt>
+                            <dd>
+                                <p>
+                                    The Final Fantasy aspect comes into play through the combat mechanics the MV programs provides, turning it into the classic side-view turn-based rpg combat system older Final Fantasy games are known for. Defeating the pokémon yields loot of their respective elemental type and the player crafts weapons and armor with them, which then have the benefits of those elements, keeping the battle of elemental types as an active part of the gameplay experience.</p>
+                            </dd>
+                        </dl>
+					
+						<h3>Concept Gallery</h3><div>
+							<div class="box-alt">
+								<p><span class="image right"><img src='images/rpgmv/versio 2.png' alt="Title Screen" onclick="openModal();currentSlide(1)" class="hover-shadow"></span>
+									For my title screen, I wanted to use the beginning ocean scene from Heart Gold opening, removing Ho-Oh, the trees, and the sun, to make space for my game title. It's a lenghty title and each separate franchise uses their own typographic style in the title, making it clear which ones it is paying homage to.<br>
+									I also feel the colors are intense, adventurous, and compliment each other in this title screen like a movie poster.
+									
+								</p>
+							</div>
+						<div class="box-alt">
+							<p><span class="image left"><img id="myImg" src='images/rpgmv/intro.gif' alt="Game Intro Animation" onclick="openModal();currentSlide(2)" class="hover-shadow"></span>
+								The opening intro I animated and edited from the original openings of FireRed and Pearl. It would also have flashes of the three starter pokémon; Charizard, Blastoise, and Venusaur, for a lore tie-in in the game later on.<br>
+								It introduces the main conflict of the game, where Mewtwo uses some psychic powers to influence behaviour of the pokémon in the region. It would also contain professor Oak explaining details about the world of Pokémon, but his smile would quickly die out due to the recent chaos and introduces the player into the game.
+							</p>
+						</div>
+						
+						<div class="box-alt">
+							<p><span class="image right"><img id="myImg" src='images/rpgmv/rain.gif' alt="Game Scene in Rain" onclick="openModal();currentSlide(3)" class="hover-shadow"></span>
+								So, here we can get a glimpse of the tone of the game, and it's not as happy-go-lucky as the general Pokémon games are. It's part of the game's intro, so the tone is clear from the very beginning.<br>
+								It also shows some of the Zelda features, specifically the bomb and rupee count in the top left corner, but I'm still not sure whether the game would contain rupees as currency. But bombs are essential, similar to many other Zelda items that the game features.
+							</p>
+						</div>
+						<div class="box-alt">
+							<p><span class="image left"><img id="myImg" src='images/rpgmv/PokeSmith.png' alt="PokéMart aka PokéSmith" onclick="openModal();currentSlide(4)" class="hover-shadow"></span><span class="image right"><img id="myImg" src='images/rpgmv/PokeCenter.png' alt="PokéCenter" onclick="openModal();currentSlide(5)" class="hover-shadow"></span>
+								Here you can see my pixel art variations of their original counterparts below them; PokéMart, turned into a PokéSmith, on the left, and PokéCenter on the right.<br>
+								I have used mostly art from <em>the Minish Cap</em> to mix up with the sprites of the original <em>FireRed</em>. I kept them dark because that helps differentiate the "new" stuff form the old, same way the FireRed had interactable objects darker than the rest of the sprites, such as characters, to help them stand out.
+							</p>
+						</div>
+						<div class="box-alt">
+							<p><span class="image left"><img id="myImg" src='images/rpgmv/Pokemon Drops.png' alt="Pokémon Material Drops" onclick="openModal();currentSlide(6)" class="hover-shadow"></span>
+								The game features a mob drop system that allows players to kill pokémon for materials that are used in crafting weapon recipes. This allows the system to follow the exact same pattern as the original Pokémon games, where you find a new region, catch a pokémon of that region which represented the region in its type. The system is the same, except instead of catching, players slay and craft. The crafting system would be very simple, containing only a few types of main equipment types, such as Weapon and Armor, each of which corresponds to an element from the pokémon games; weapon decided what "element your attack is" and weapond decided what "element your character is," since type is an integral part of the damage calculation.
+							</p>
+						</div>
+						<div class="box-alt">
+							<p><span class="image right"><img id="myImg" src='images/rpgmv/Equipment Screen.png' alt="Equipment UI" onclick="openModal();currentSlide(7)" class="hover-shadow"></span>
+								As can be seen in this picture, the equipment UI mock up shows a relatively simplistic set of equipment for a character called Misty, and it contains two Trinket slots, left and right hand slots, armor, and two side slots.
+								<li>1. Trinkets, such as Necklaces and Rings offer stat bonuses, such as crit or speed boosters.</li>
+								<li>Hands hold weapons, shields, and staffs determine the types for the characters, as well as add either attack, special, or defense.</li>
+								<li>Books determine what <em>spells</em> the character can cast, effectively "which moves the characters can use". The Bag currently has no use.</li>
+							</p>
+						</div>
+						<div class="box-alt">
+							<p><span class="image left"><img id="myImg" src='images/rpgmv/Item Variations.png' alt="Equipment and Type Color Schemes" onclick="openModal();currentSlide(8)" class="hover-shadow"></span>
+								Explanation I have given above is a bit misleading, as the "crafting" is not actually crafting. The looted materials are condenced in pokéballs, which are then used to create elemental stones, which are used to evolve certain pokémon in the original games. In my game, these elemental stones are <em>socketed</em> into the equipment, granting them the elemental aptitude.<br>
+								This picture contains my pixel art mock-up of color schemes for each element the game has (from left to right) directly same as the types from FireRed; Normal, Fight, Fly, Poison, Ground, Rock, Bug, Ghost, Fire, Water, Grass, Electric, Psychic, Ice, and Dragon type equipment. And underneath it shows pixel art mock-ups for the elemental stones, sharing the color schemes. The equipment in this picture are the highest quality equipment.
+							</p>
+						</div>
+						<div class="box-alt">
+							<p><span class="image right"><img id="myImg" src='images/rpgmv/Weapon Sketching.png' alt="Weapon Mock-Up"></span>
+								This is my pixel art process for designing different levels of weapons for the game using a grid. It creates a large variety of sword sprites by combining a set of hilts with blades along a size jumps, creating variation in a seemingly unchanging weapon system. And once socketed into it, the item uses the color scheme from the elemental stones, using the schemes in the picture above.
+							</p>
+						</div>
+				</p>
+				</div>
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="images/rpgmv/versio 2.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="images/rpgmv/intro.gif" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="images/rpgmv/rain.gif" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="images/rpgmv/PokeSmith.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 9</div>
+		<img src="images/rpgmv/PokeCenter.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">6 / 9</div>
+		<img src="images/rpgmv/Pokemon Drops.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">7 / 9</div>
+		<img src="images/rpgmv/Equipment Screen.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">8 / 9</div>
+		<img src="images/rpgmv/Item Variations.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">9 / 9</div>
+		<img src="images/rpgmv/Weapon Sketching.png" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/versio 2.png" onclick="currentSlide(1)" alt="Title Screen"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/intro.gif" onclick="currentSlide(2)" alt="Game Intro Animation"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/rain.gif" onclick="currentSlide(3)" alt="Game Scene in Rain"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/PokeSmith.png" onclick="currentSlide(4)" alt="PokéMart aka PokéSmith"style="width:160px">
+	  </div>
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/PokeCenter.png" onclick="currentSlide(5)" alt="PokéCenter"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/Pokemon Drops.png" onclick="currentSlide(6)" alt="Pokémon Material Drops"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/Equipment Screen.png" onclick="currentSlide(7)" alt="Equipment UI"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/Item Variations.png" onclick="currentSlide(8)" alt="Equipment and Type Color Schemes"style="width:160px">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/rpgmv/Weapon Sketching.png" onclick="currentSlide(9)" alt="Weapon Mock-Up"style="width:160px">
+	  </div>
+
+	</div>
+  </div>
+					<!-- The Modal -->
+					<script>
+						// Open the Modal
+						function openModal() {
+						  document.getElementById("myModal").style.display = "block";
+						}
+						
+						// Close the Modal
+						function closeModal() {
+						  document.getElementById("myModal").style.display = "none";
+						}
+						
+						var slideIndex = 1;
+						showSlides(slideIndex);
+						
+						// Next/previous controls
+						function plusSlides(n) {
+						  showSlides(slideIndex += n);
+						}
+						
+						// Thumbnail image controls
+						function currentSlide(n) {
+						  showSlides(slideIndex = n);
+						}
+						
+						function showSlides(n) {
+						  var i;
+						  var slides = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("demo");
+						  var captionText = document.getElementById("caption");
+						  if (n > slides.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = slides.length}
+						  for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						  }
+						  for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block";
+						  dots[slideIndex-1].className += " active";
+						  captionText.innerHTML = dots[slideIndex-1].alt;
+						}
+						</script>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					<ul style="color: rgb(223, 223, 223);"><li>Zeldylocks</li><li>Original Layout: <a href="https://html5up.net">HTML5 UP</a></li>
+						<li>Images: GameFreak, Nintendo</a></li></ulstyle>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
